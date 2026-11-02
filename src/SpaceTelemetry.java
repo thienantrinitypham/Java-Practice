@@ -15,6 +15,7 @@ public class SpaceTelemetry {
         float powerConsumed = 100.0f - batteryCharge;
 
         boolean isSystemFunctioning = (batteryCharge > 20.0f) && (oxygenOK == true);
+        
         System.out.println("=========================================");
         System.out.println("        MARS ROVER TELEMETRY HUB        ");
         System.out.println("=========================================");
